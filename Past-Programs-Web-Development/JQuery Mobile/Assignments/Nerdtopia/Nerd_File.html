@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="Nerd_File" class="ui-content">
+	  <div data-role="main">
+	  <div data-role="header">
+	  <h1>Nerdtopia</h1>
+	  </div>
+	  
+	  
+	  
+	  <div data-role="navbar">
+		<ul>
+		  <li><a href="JMLab4_Home.html" class="ui-btn" data-transition="flip" data-icon="home">Home</a></li>
+		  <li><a href="Nerd_Login.html" class="ui-btn" data-transition="flip" data-icon="user">Log Out</a></li>
+		</ul>
+	  </div>
+	  
+	  
+	<div>
+	<a href="#myPanel" class="ui-btn ui-btn-inline  ui-shadow">Favorite Comics</a>
+
+		
+		<div data-role="panel" id="myPanel"  data-swipe-open="true"  data-swipe-close="true">
+		  <div data-role="collapsible">
+			  <h1>Universe</h1>
+			  <div data-role="collapsible">
+				<h1>Marvel</h1>
+				<a href="#myPopup" data-rel="popup" data-position-to="window">
+					<img src="BLPanther.jpg" alt="comic" style="width:100px;"></a>
+
+					<div data-role="popup" id="myPopup">
+					  <img src="civilWar.jpg" style="width:400px;height:400px;" alt="View">
+					</div>
+			  </div>
+			</div>
+			  
+		</div>
+	</div>	
+		
+		
+  <br />
+  <label for="fname">First name: Jonathan</label>
+	<label for="lname">Last name: Smith</label>
+ <label for="raceTime">Favorite Game: Destiny</label>
+	<label for="raceTime">Preferred Comic Universe: Marvel </label>
+
+
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+  </div>
+  </div>
+  
+</body>
+</html>

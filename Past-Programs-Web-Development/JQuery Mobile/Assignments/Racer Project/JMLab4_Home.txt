@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="home" class="ui-content">
+	  <div data-role="header">
+	  <h1>Racer Tracker</h1>
+	  </div>
+	  
+	   <div data-role="main">
+	   
+	   <h1><center>Welcome to Racer Tracker</center></h1>
+	   
+	   <!--<div data-role="controlgroup" data-type="vertical">
+		  <a href="#home" class="ui-btn ui-btn-b ui-icon-home ui-btn-icon-left ui-mini">Home</a>
+		  <a href="#profile" class="ui-btn ui-btn-b ui-icon-info ui-btn-icon-left ui-mini">My Profile</a>
+		  <a href="#racer2" class="ui-btn ui-btn-b ui-mini ui-icon-arrow-r ui-btn-icon-left">Next Racer</a>
+		  <a href="#search" class="ui-btn ui-btn-b ui-icon-search ui-btn-icon-left ui-mini">Search Racers</a>
+		</div>-->
+	  
+	  <div data-role="navbar">
+		<ul>
+		  <li><a href="#home" data-transition="flip" data-icon="home">Home</a></li>
+		  <li><a href="#profile" data-transition="flip" data-icon="user">Profile</a></li>
+		  <li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+		</ul>
+	  </div>
+	  
+	   <a href="#nextRace" data-rel="popup" class="ui-btn" data-transition="pop">Time till next Race</a>
+	   
+	   <div data-role="popup" data-icon="clock" id="nextRace" class="ui-content">
+		  <p>Next Race starts in: 45  mins</p>
+		</div>
+	
+		</div> 
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+  </div>
+
+
+<div data-role="page" id="profile" class="ui-content">
+	  <div data-role="main">
+	  <div data-role="header">
+	  <h1>Racer Tracker</h1>
+	  </div>
+	  
+	  
+	  
+	  <div data-role="navbar">
+		<ul>
+		  <li><a href="#home" data-transition="flip" data-icon="home">Home</a></li>
+		   <li><a href="#profile" data-transition="flip" data-icon="user">Profile</a></li>
+		  <li><a href="#racer2" data-transition="flow" data-icon="arrow-r">Next Racer</a></li>
+		  <li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+		</ul>
+	  </div>
+	  
+	  
+	<div>
+	<a href="#myPanel" class="ui-btn ui-btn-inline  ui-shadow">Look at Race Courses</a>
+
+		
+		<div data-role="panel" id="myPanel"  data-swipe-open="true"  data-swipe-close="true">
+		  <div data-role="collapsible">
+			  <h1>Course Maps</h1>
+			  <div data-role="collapsible">
+				<h1>MaClay Gardens</h1>
+				<a href="#myPopup" data-rel="popup" data-position-to="window">
+					<img src="Maclay Gardens State Park-L.jpg" alt="View Course" style="width:100px;"></a>
+
+					<div data-role="popup" id="myPopup">
+					  <img src="Mclay_Gardens.jpg" style="width:400px;height:400px;" alt="View">
+					</div>
+			  </div>
+			</div>
+			  
+		</div>
+	</div>	
+		
+		
+  <br />
+  <label for="fname">First name: Jonathan</label>
+	<label for="lname">Last name: Smith</label>
+ <label for="raceTime">Best Time: 20:18 </label>
+	<label for="raceTime">Current Comp: Clement Allen </label>
+	 <label for="races">Races Won: 6 </label>
+
+
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+  </div>
+  </div> 
+
+<div data-role="page" id="racer2" class="ui-content">
+	   <div data-role="main">
+	  <div data-role="header">
+	  <h1>Racer Profile</h1>
+	  </div>
+	 
+	 <div data-role="navbar">
+		<ul>
+		  <li><a href="#home" data-transition="flip" data-icon="home">Home</a></li>
+		   <li><a href="#profile" data-transition="flip" data-icon="user">Profile</a></li>
+		  <li><a href="#racer2" data-transition="flow" data-icon="arrow-r">Next Racer</a></li>
+		  <li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+		</ul>
+	  </div>
+	
+	<div>
+	<a href="#myPanel" class="ui-btn ui-btn-inline  ui-shadow">Look at Race Courses</a>
+
+		
+		<div data-role="panel" id="myPanel"  data-swipe-open="true"  data-swipe-close="true">
+		  <div data-role="collapsible">
+			  <h1>Course Maps</h1>
+			  <div data-role="collapsible">
+				<h1>MaClay Gardens</h1>
+				<a href="#myPopup" data-rel="popup" data-position-to="window">
+					<img src="Maclay Gardens State Park-L.jpg" alt="View Course" style="width:100px;"></a>
+
+					<div data-role="popup" id="myPopup">
+					  <img src="Mclay_Gardens.jpg" style="width:400px;height:400px;" alt="View">
+					</div>
+			  </div>
+			</div>
+			  
+		</div>
+	</div>	
+  
+
+  <label for="fname">First name: Clement</label>
+	<label for="lname">Last name: Allen</label>
+ <label for="raceTime">Best Time: 10:12 </label>
+	<label for="racerComp">Current Comp: Jonathan Smith </label>
+ <label for="races">Races Won: 12 </label>
+
+	 
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+  </div>  
+</div>
+
+  <div data-role="page" id="search" class="ui-content">
+	  <div data-role="header">
+	  <h1>Search Racers</h1>
+	  </div>
+	  <div data-role="main">
+	   <!--<div data-role="controlgroup" data-type="vertical">
+		  <a href="#home" class="ui-btn ui-btn-b ui-icon-home ui-btn-icon-left ui-mini">Home</a>
+		  <a href="#profile" class="ui-btn ui-btn-b ui-icon-info ui-btn-icon-left ui-mini">My Profile</a>
+		  <a href="#racer2" class="ui-btn ui-btn-b ui-mini ui-icon-arrow-r ui-btn-icon-left">Next Racer</a>
+		  <a href="#search" class="ui-btn ui-btn-b ui-icon-search ui-btn-icon-left ui-mini">Search Racers</a>
+		</div>-->
+	  <div data-role="navbar">
+		<ul>
+		  <li><a href="#home" data-transition="flip" data-icon="home">Home</a></li>
+		  <li><a href="#profile" data-transition="flip" data-icon="user">Profile</a></li>
+		  <li><a href="#racer2" data-transition="flow" data-icon="arrow-r">Next Racer</a></li>
+		  <li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+		</ul>
+	  </div>
+	
+  
+	<label for="fname">First name:</label>
+    <input type="text" name="firstName" id="firstName">
+	<label for="lname">Last name:</label>
+    <input type="text" name="lastName" id="lastName">
+	
+	<input type="submit" value="Submit Button">
+	
+ </div>  
+	 
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+ </div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body
+{
+	background-image:url('http://www.comicvine.com/api/image/scale_super/3289812-9024833578-marve.jpg');
+	color:#FF8700;
+}
+
+a:link
+	{
+		color:white;
+	}
+	
+a:visited
+	{
+		color:red;
+	}
+
+h1
+{
+	font-family:"Lucida Console",Verdana,Sans-serif;
+	color:red;
+}
+
+th
+{
+		font-family:"Verdana",Georgia,Sans-serif;
+		color:#4186D3;
+}
+
+td
+{
+	font-family:"Courier New",Times,serif;
+	font-size:14px;
+	font-style:bold;
+}
+
+#footer
+{
+	text-align:center;
+	font-size:18px;
+	color:white;
+}

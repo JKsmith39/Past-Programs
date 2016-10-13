@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+ <div data-role="page" id="search" class="ui-content">
+	  <div data-role="header">
+	  <h1>Gamer Login</h1>
+	  </div>
+	  <div data-role="main">
+	   <!--<div data-role="controlgroup" data-type="vertical">
+		  <a href="#home" class="ui-btn ui-btn-b ui-icon-home ui-btn-icon-left ui-mini">Home</a>
+		  <a href="#profile" class="ui-btn ui-btn-b ui-icon-info ui-btn-icon-left ui-mini">My Profile</a>
+		  <a href="#racer2" class="ui-btn ui-btn-b ui-mini ui-icon-arrow-r ui-btn-icon-left">Next Racer</a>
+		  <a href="#search" class="ui-btn ui-btn-b ui-icon-search ui-btn-icon-left ui-mini">Search Racers</a>
+		</div>
+	   <div data-role="navbar">
+		<ul>
+		  <li><a href="JMLab4_Home.html" class="ui-btn" data-transition="flip" data-icon="home">Home</a></li>
+		  <li><a href="Nerd_File.html" class="ui-btn" data-transition="flip" data-icon="user">Nerd File</a></li>
+		</ul>
+	  </div>-->
+	
+	<form method="GET" action="login.php">
+	<label for="user">Username:</label>
+    <input type="text" name="username" id="username">
+	<label for="pwd">Password:</label>
+    <input type="password" name="pass" id="pass">
+	
+	<input type="submit" value="Login">
+	</form>
+	
+ </div>  
+	 
+	<div data-role="footer">
+	  <p>Copyright &copy; Ghosteye Gamers</p>
+	  <p>Author: Jk Smith</p>
+	</div>
+ </div>

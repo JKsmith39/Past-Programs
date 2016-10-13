@@ -1,0 +1,180 @@
+#header
+{
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 280px;
+	font-style: italic;
+}
+
+#products
+{
+	position: absolute;
+	left: 38px;
+	top: 216px;
+	width: 578px;
+	height: 307px;
+}
+
+#register
+{
+	position: absolute;
+	left: 288px;
+	top: 218px;
+	width: 405px;
+	height: 295px;
+}
+
+#login
+{
+	position: absolute;
+	left: 18px;
+	top: 239px;
+}
+
+h1
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:36px;
+}
+
+h3
+{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-size: 24px;
+}
+
+#site menu
+{
+	position:absolute;
+}
+
+#slogan
+{
+	position: absolute;
+	left: 612px;
+	top: 21px;
+	width: 454px;
+	height: 34px;
+}
+
+
+#bussinessinfo
+{
+	position: absolute;
+	left: 341px;
+	top: 29px;
+	width: 170px;
+	height: 68px;
+	
+}
+
+
+#image1
+{
+	position: absolute;
+	left: 73px;
+	top: 169px;
+	width: 579px;
+}
+
+#menu
+{
+	position: absolute;
+	left: 230px;
+	top: 124px;
+	width: 701px;
+}
+
+#aboutUs
+{
+	position: absolute;
+	left: 694px;
+	top: 287px;
+	width: 367px;
+	height: 163px;
+	
+}
+
+#contact
+{
+	position: absolute;
+	left: 171px;
+	top: 320px;
+	width: 237px;
+	height: 129px;
+	
+}
+
+#contactTitle
+{
+	position: absolute;
+	left: 459px;
+	top: 178px;
+	width: 188px;
+	height: 64px;
+	
+}
+
+#email
+{
+	position: absolute;
+	left: 127px;
+	top: 249px;
+	width: 92px;
+	height: 45px;
+	
+}
+
+#feed
+{
+	position: absolute;
+	left: 201px;
+	top: 239px;
+	width: 748px;
+	height: 965px;
+	
+}
+
+#title
+{
+	position: absolute;
+	left: 501px;
+	top: 161px;
+	width: 132px;
+	height: 33px;
+	font-size: 24px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+
+a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#0CC;
+text-align:center;
+padding:8px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+a:hover,a:active
+{
+background-color:#000;
+}

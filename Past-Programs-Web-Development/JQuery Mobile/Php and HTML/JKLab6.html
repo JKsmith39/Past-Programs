@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="header">
+    <h1>Heart Rate</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <form method="POST" action="Info.php">
+      
+	  <fieldset class="ui-field-contain">
+		<label for="day">Gender</label>
+		<select name="gender" id="gender">
+		  <option value="male">Male</option>
+		  <option value="female">Female</option>
+		</select>
+	  </fieldset>
+	 
+	Heart Rate:<input type="range" name="rate" id="rate" value="50" min="0" max="500">
+	 
+	 Age: <input type="range" name="age" id="age" value="25" min="0" max="100">
+    
+	<input type="submit" value="Submit">
+	</form>
+	
+	
+  </div>
+
+
+  
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+
+</body>
+</html>
